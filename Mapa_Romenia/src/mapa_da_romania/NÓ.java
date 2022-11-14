@@ -2,6 +2,7 @@ package mapa_da_romania;
 
 import java.util.ArrayList;
 
+
 public class NÓ implements Comparable<NÓ>{
 	private Estado estado;
 	private NÓ pai;
