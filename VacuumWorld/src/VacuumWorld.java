@@ -25,7 +25,9 @@ public class VacuumWorld {
 				}
 			}
 			else if(wallysPerception.isLocation()) {
+				
 				System.out.println(wally.act(wallysPerception).getName());
+				
 				sala.setAgentLocation(false);
 			}
 			else {
